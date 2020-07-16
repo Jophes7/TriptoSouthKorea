@@ -25,22 +25,23 @@ h1 { text-align: center;
      padding: 5px; }
 
 h2 { text-align: center;
-     font-size: 1.2em;
+     font-size: 1.3em;
      font-family: serif;
      text-shadow: 1px #191970; }
 
 h3 { text-align: left;
-     font-size: 1.1em;
+     font-size: 1.2em;
      color: #800000;
      text-decoration: underline;
      text-shadow: 1px 1px #800000 }
 
 h4 { font-size: 1.1em;
      color: #800000;
+     text-align: center;
      text-decoration: underline;
      text-shadow: 1px #800000; }
 
-p {  font-size: 1em;
+p {  font-size: 1.1em;
      padding: 5px;
      font-family: serif;
      color: #8B0000; } 
@@ -93,15 +94,18 @@ dt { color: #5280C5;
      font-size: 1.1em;
      font-family: Georgia, "Times New Roman", serif; } 
 
-img {border: none; 
+img { border-color: #000000;
      max-width: 300px;
      max-height: 300px;
-     padding-bottom: 10px;
-     padding-left: 10px;
-     padding-right: 10px; }
+     padding: 5px; }
 
 #img { float: left;
        width: 20%; }
+
+.center { display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%; }
 
 input, textarea { display: block;
 		  margin-bottom: 1em; }
