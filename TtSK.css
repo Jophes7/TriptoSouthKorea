@@ -8,11 +8,9 @@ body { background-image: url(SK-collage.jpg);
        color: #000000;
        font-family: Verdana, Arial, sans-serif; }
 
-main { margin: 10px;
-       margin-left: 100px;
-       margin-right: 100px;
-       padding-right: 20px;
-       padding-bottom: 20px; }
+main { margin: 20px;
+       padding-right: 10px;
+       padding-bottom: 10px; }
       
 header { background-position: center;
          color: #8B0000; 
@@ -40,22 +38,21 @@ h3 { text-align: left;
 h4 { font-size: 1.1em;
      color: #800000;
      text-decoration: underline;
-     text-shadow: 1px #800000;
-     margin: 20px;
-     width: 20px; }
+     text-shadow: 1px #800000; }
 
-p {  text-align: left;
-     font-size: 1em;
+p {  font-size: 1em;
      padding: 5px;
      font-family: serif;
      color: #8B0000; } 
 
-.info { float: right;
-	margin: 20px;
-	width: 20px; }
+#info { float: right;
+	width: 30%;
+	padding-left: 10px; }
 
 table { border: 2px solid #000066; 
-        border-collapse: collapse; }
+        border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto; }
 
 th { padding: 0.5em;
      border: 1px solid #000066;
@@ -96,7 +93,15 @@ dt { color: #5280C5;
      font-size: 1.1em;
      font-family: Georgia, "Times New Roman", serif; } 
 
-img {border: none; }
+img {border: none; 
+     max-width: 300px;
+     max-height: 300px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+     padding-right: 10px; }
+
+#img { float: left;
+       width: 20%; }
 
 input, textarea { display: block;
 		  margin-bottom: 1em; }
@@ -112,7 +117,7 @@ footer { color: #800000;
 	 font-size: 1em;
          font-style: italic;
 	 text-align: center;
-	 padding: 10px; }
+	 padding: 20px; }
 
 footer nav { text-align: left; }
          
