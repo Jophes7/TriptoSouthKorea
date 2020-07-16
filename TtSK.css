@@ -2,7 +2,9 @@
 
 header, nav, main, footer { display: block; }
 
-body { background: #F5F5DC;
+body { background-image: url(SK-collage.jpg);
+       background-repeat: repeat;
+       backround-size: auto;
        color: #000000;
        font-family: Verdana, Arial, sans-serif; }
 
@@ -35,12 +37,22 @@ h3 { text-align: left;
      text-decoration: underline;
      text-shadow: 1px 1px #800000 }
 
+h4 { font-size: 1.1em;
+     color: #800000;
+     text-decoration: underline;
+     text-shadow: 1px #800000;
+     margin: 20px;
+     width: 20px; }
+
 p {  text-align: left;
      font-size: 1em;
      padding: 5px;
      font-family: serif;
-
      color: #8B0000; } 
+
+.info { float: right;
+	margin: 20px;
+	width: 20px; }
 
 table { border: 2px solid #000066; 
         border-collapse: collapse; }
