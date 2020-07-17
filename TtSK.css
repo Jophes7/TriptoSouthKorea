@@ -97,17 +97,20 @@ dt { color: #5280C5;
      font-family: Georgia, "Times New Roman", serif; } 
 
 img { border-color: #000000;
-     max-width: 300px;
-     max-height: 300px;
-     padding: 5px; }
+      max-width: 300px;
+      max-height: 300px;
+      padding: 5px; }
 
 #img { float: left;
        width: 20%; }
 
+.logo { float: left;
+	width: 20%; }
+
 .center { display: block;
-	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%; }
+	  margin-left: auto;
+  	  margin-right: auto;
+  	  width: 50%; }
 
 input, textarea { display: block;
 		  margin-bottom: 1em; }
@@ -140,7 +143,7 @@ footer nav { text-align: left; }
 @media only screen and (max-width: 1024px) {
 body { margin: 0; padding: 0; background-image: none; color: white; }
 #wrapper { width: auto; min-width: 0; margin: 0; }
-h1 { margin: 0; font-size: 1.8em; line-height: 200%; }
+h1 { margin: 0; font-size: 2em; line-height: 200%; }
 nav { float: none; width: auto; }
 nav li { display: inline-block; }
 nav a { padding: 1em; font-size: 1.2em; }
@@ -150,12 +153,16 @@ footer { margin: 0; }
 }
 
 @media only screen and (max-width: 768px) {
+#info { float: none; width: auto; margin: 0px; padding-bottom: 20px; }
+#img { float: none; width: auto; margin: 0px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
 header { background-repeat: no-repeat; background-position: center; }
-h1 { font-size: 1.5em; line-height: 120%; }
+h1 { font-size: 2em; line-height: 120%; }
+h2 { font-size: 1.5em; line-height: 100%; }
+body { font-size: 90%; }
+img { max-width: 200px; max-height: 200px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
 nav a { display: block; padding: 0.2em; font-size: 1.3em; border-bottom: 1px solid #330000; }
 nav li { display: block; }
 nav ul { text-align: block; }
-.category { text-shadow: none; }
 #mobile { display: inline; }
 #desktop { display: none; }
 }
