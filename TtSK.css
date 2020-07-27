@@ -91,6 +91,18 @@ nav a { text-decoration: none; }
 nav a:link { color: #8B0000; }
 nav a:visited { color: #B22222; }
 nav a:hover { color: #CD5C5C; }
+nav a.active { border-bottom: 2px solid #00008B; }
+
+.topnav { overflow: hidden; }
+
+.topnav a { display: block;
+	    float: left;
+	    border-bottom: 2px solid transparent; }
+
+.topnav a:hover { border-bottom: 3px solid #00008B;
+		  border-right: 3px solid #00008B; }
+
+.topnav a.active { border-bottom: 3px solid #00008B; }
 
 dt { color: #5280C5;
      font-size: 1.1em;
