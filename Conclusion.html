@@ -26,9 +26,14 @@
 	<h2>Tell us about your thoughts on the website and what could be improved on!!</h2>
 	<img src="bobocomp.jpg" class="center" height="400" width="200">
 	<p class="centerfont">This is Bobo and he is a pug.</p>
-	<p class="conclusion">After browsing through the site, he has the sudden urge to save up for a trip to South Korea!
+	<p class="message">After browsing through the site, he has the sudden urge to save up for a trip to South Korea!
 	He wants to know what others have thought about the website. Perhaps it would be a great idea to tell him
 	about what you were able to find out!</p>
+	
+	<div id="bobo">
+	<img src="bobo.jpg">
+	</div>
+
 	<h5 class="conclusion">Fields marked with * are required.</h5>
 	<script>
 	function validateForm() {
@@ -40,23 +45,39 @@
 	 alert("Please enter an e-mail address.");
 	 return false;
 	} 
+	else if (document.forms[0].myYesNo.value == "" ) {
+	 alert("Please select yes or no.");
+	 return false;
+	} 
 	return true;
 	} 
 	</script>
-	<form method="post" action="" onsubmit="return validateForm();">
+	<form method="post" action="https://webdevbasics.net/scripts/demo.php" onsubmit="return validateForm();">
 		<label for="myName"><span class="conclusion">* Name:</span></label>
 		<input type="text" name="myName" id="myName">
 		<label for="myEmail"><span class="conclusion">* E-mail:</span></label>
 		<input type="email" name="myEmail" id="myEmail">
+
+		<label for="myYesNo"><span class="conclusion">* Do you want to visit South Korea?:</label>
+  		<select id="myYesNo" name="myYesNo">
+		<option value=""></option>
+    		<option value="yes">Yes</option>
+    		<option value="no">No</option>
+  		</select>
+
 		<label for="myComments"><span class="conclusion">Comments:</span></label>
 		<textarea name="myComments" id="myComments" rows="3" cols="30"></textarea>
-		<input id="mySubmit" type="submit" value="Send Now">
+		<input id="mySubmit" type="submit" value="Send!">
 		<input id="myReset" type="reset" value="Reset">
 	</form>
 	</main>
 	<footer>
 	<div>
-		<span class="mod">This document was last modified on:
+		
+		Feel free to email Joseph Harris at: <a href="mailto:jh7vg@virginia.edu">jh7vg@virginia.edu</a>
+		<br>
+		<span class="mod">
+		This document was last modified on:
 		<script>
 		document.write(document.lastModified);
 		</script>
