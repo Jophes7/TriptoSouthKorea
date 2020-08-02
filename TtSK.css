@@ -104,8 +104,10 @@ th { padding: 0.5em;
 td { padding: 0.5em;
      border: 1px solid #000066; }
 
+.tour { text-align: left; }
+
 .navTable { width: 100%;
-	    border: 2px solid #483D8B;
+	    border: 2px solid #B0C4DE;
 	    table-layout: fixed;
 	    text-align: center; }
 
@@ -129,7 +131,7 @@ nav a { text-decoration: none; }
 nav a:link { color: #8B0000; }
 nav a:visited { color: #B22222; }
 nav a:hover { color: #CD5C5C; }
-nav a.active { border: 2px solid #00008B; }
+nav a.active { border: 2px solid #778899; }
 
 .topnav { overflow: hidden; }
 
@@ -137,10 +139,10 @@ nav a.active { border: 2px solid #00008B; }
 	    float: left;
 	    border-bottom: 2px solid transparent; }
 
-.topnav a:hover { border-bottom: 3px solid #00008B;
-		  border-right: 3px solid #00008B; }
+.topnav a:hover { border-left: 3px solid #778899;
+		  border-right: 3px solid #778899; }
 
-.topnav a.active { border-bottom: 3px solid #00008B; }
+
 
 dt { color: #800000;
      font-size: 1.1em;
