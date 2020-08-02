@@ -92,7 +92,8 @@ p {  font-size: 1.1em;
 table { border: 2px solid #000066; 
         border-collapse: collapse;
 	margin-left: auto;
-	margin-right: auto; }
+	margin-right: auto;
+	table-layout: fixed; }
 
 th { padding: 0.5em;
      border: 1px solid #483D8B;
@@ -105,6 +106,12 @@ td { padding: 0.5em;
      border: 1px solid #000066; }
 
 .tour { text-align: left; }
+
+.fftable { border: 2px solid #000066; 
+	  border-collapse: collapse;
+	  margin-left: 20%;
+	  margin-right: 20%;
+	  table-layout: fixed; }
 
 .navTable { width: 100%;
 	    border-bottom: 3px solid #B0C4DE;
@@ -146,8 +153,6 @@ nav a.active { border-left: 3px solid #778899;
 	    border-bottom: 2px solid transparent; }
 
 .topnav a:hover { background-color: #4169E1; }
-
-
 
 dt { color: #800000;
      font-size: 1.1em;
