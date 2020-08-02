@@ -12,8 +12,7 @@ main { margin: 20px;
        padding-right: 10px;
        padding-bottom: 10px; }
       
-header { background-position: center;
-         color: #8B0000; 
+header { color: #8B0000; 
 	 background-color: #6495ED; }
          
 h1 { text-align: center;
@@ -63,8 +62,7 @@ input[type=email] { border: 1px solid;
 textarea { border: 1px solid;
 	   border-radius: 4px; }
 
-input[type=submit] { background-color: 
-		     border: 1px solid;
+input[type=submit] { border: 1px solid;
 		     border-radius: 4px; }
 
 input[type=reset] { border: 1px solid;
@@ -107,7 +105,10 @@ td { padding: 0.5em;
 .tour { text-align: left; }
 
 .navTable { width: 100%;
-	    border: 2px solid #B0C4DE;
+	    border-bottom: 3px solid #B0C4DE;
+	    border-right: none;
+	    border-left: none;
+	    border-top: none;
 	    table-layout: fixed;
 	    text-align: center; }
 
@@ -131,7 +132,10 @@ nav a { text-decoration: none; }
 nav a:link { color: #8B0000; }
 nav a:visited { color: #B22222; }
 nav a:hover { color: #CD5C5C; }
-nav a.active { border: 2px solid #778899; }
+nav a.active { border-left: 3px solid #778899;
+	       border-right: 3px solid #778899;
+	       padding-left: 5px;
+	       padding-right: 5px; }
 
 .topnav { overflow: hidden; }
 
@@ -139,8 +143,7 @@ nav a.active { border: 2px solid #778899; }
 	    float: left;
 	    border-bottom: 2px solid transparent; }
 
-.topnav a:hover { border-left: 3px solid #778899;
-		  border-right: 3px solid #778899; }
+.topnav a:hover { background-color: #4169E1; }
 
 
 
