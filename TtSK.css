@@ -56,8 +56,8 @@ video { margin-left: 20px;
 
 .vidcap { font-size: 0.8em;
 	  color: #800000;
-	  margin-left: 20px;
-	  margin-right: 20px; } 
+	  margin-left: 5px;
+	  margin-right: 5px; } 
 
 input, textarea, select { display: block;
 		  margin-bottom: 1em;
