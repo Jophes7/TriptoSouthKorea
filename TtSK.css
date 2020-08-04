@@ -12,8 +12,7 @@ main { margin: 20px;
        padding-right: 10px;
        padding-bottom: 10px; }
       
-header { color: #8B0000; 
-	 background-color: #6495ED; }
+header { background-color: #6495ED; }
          
 h1 { text-align: center;
      text-indent: 1em;
@@ -54,14 +53,24 @@ h6 { font-size: 1.1em;
 video { margin-left: 20px;
 	margin-right: 20px; }
 
-.vidcap { font-size: 0.8em;
+.caption { font-size: 0.9em;
 	  color: #800000;
 	  margin-left: 5px;
 	  margin-right: 5px; } 
 
+.credit { font-size: 0.8em;
+	  color: #800000;
+	  margin-left: 5px;
+	  margin-right: 5px; } 
+
+.tcredit { font-size: 0.8em;
+	   color: #483D8B;
+	   margin-left: 5px;
+	   margin-right: 5px; }
+
 input, textarea, select { display: block;
-		  margin-bottom: 1em;
-		  margin-left: 20%; }
+		  	  margin-bottom: 1em;
+		  	  margin-left: 20%; }
 
 input[type=text] { border: 1px solid;
 		   border-radius: 4px; }
@@ -84,8 +93,8 @@ input[type=reset] { border: 1px solid;
 .maroon { color: #800000; }
 
 .message { color: #800000;
-	      margin-left: 10%;
-	      margin-right: 10%; }
+	   margin-left: 10%;
+	   margin-right: 10%; }
 
 .conclusion { color: #800000;
 	      margin-left: 20%; }
@@ -93,6 +102,11 @@ input[type=reset] { border: 1px solid;
 .popularity { color: #800000;
 	      margin-left: 20%;
 	      margin-right: 20%; }
+
+.kpopdrama { color: #483D8B;
+	     text-align: left;
+	     margin-left: 10%;
+	     margin-right: 10%; }
 
 p {  font-size: 1.1em;
      padding: 5px;
@@ -190,6 +204,15 @@ img { border-color: #000000;
 
 #img { float: left;
        width: 20%; }
+
+#popimg { float: left;
+          width: 30%; }
+
+#danceimg { float: right;
+            width: 30%; }
+
+#dramaimg { float: right;
+            width: 20%; }
 
 .logo { float: left;
 	width: 20%; }
