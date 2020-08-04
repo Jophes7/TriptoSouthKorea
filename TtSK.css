@@ -51,6 +51,14 @@ h6 { font-size: 1.1em;
      text-align: center;
      font-family: Serif; }
 
+video { margin-left: 20px;
+	margin-right: 20px; }
+
+.vidcap { font-size: 0.8em;
+	  color: #800000;
+	  margin-left: 20px;
+	  margin-right: 20px; } 
+
 input, textarea, select { display: block;
 		  margin-bottom: 1em;
 		  margin-left: 20%; }
