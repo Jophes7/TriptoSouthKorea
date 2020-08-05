@@ -289,7 +289,7 @@ body { margin: 0; padding: 0; background-image: none; color: white; }
 #dramaimg { float: none; width: auto; display: block; margin-left: auto; margin-right: auto; }
 #info { float: none; width: auto; margin: 0px; padding-bottom: 20px; }
 h1 { margin: 0; font-size: 2em; line-height: 200%; }
-h2 { font-size: 1.5em; line-height: 100%; }
+h2 { font-size: 1.3em; line-height: 100%; }
 table { margin-left: auto; margin-right: auto; }
 img { max-width: 200px; max-height: 250px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
 video { max-width: 300px; max-height: 200px; display: block; margin-left: auto; margin-right: auto; }
