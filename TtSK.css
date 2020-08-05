@@ -53,17 +53,24 @@ h6 { font-size: 1.1em;
 video { margin-left: 20px;
 	margin-right: 20px; }
 
-.caption { font-size: 0.9em;
+.caption { font-size: 0.8em;
+	   color: #800000;
+	   text-align: center;
+	   margin-left: 5px;
+	   margin-right: 5px; } 
+
+.kcaption { font-size: 0.8em;
+	    color: #191970;
+	    text-align: center;
+	    margin-left: 5px;
+	    margin-right: 5px; } 
+
+.credit { font-size: 0.7em;
 	  color: #800000;
 	  margin-left: 5px;
 	  margin-right: 5px; } 
 
-.credit { font-size: 0.8em;
-	  color: #800000;
-	  margin-left: 5px;
-	  margin-right: 5px; } 
-
-.tcredit { font-size: 0.8em;
+.tcredit { font-size: 0.7em;
 	   color: #483D8B;
 	   margin-left: 5px;
 	   margin-right: 5px; }
@@ -103,7 +110,9 @@ input[type=reset] { border: 1px solid;
 	      margin-left: 20%;
 	      margin-right: 20%; }
 
-.kpopdrama { color: #483D8B;
+.kpopdrama { font-family: serif;
+	     font-size: 1.1em;
+	     color: #483D8B;
 	     text-align: left;
 	     margin-left: 10%;
 	     margin-right: 10%; }
@@ -206,12 +215,15 @@ img { border-color: #000000;
        width: 20%; }
 
 #popimg { float: left;
+	  margin-left: 10%;
           width: 30%; }
 
 #danceimg { float: right;
+	    margin-right: 10%;
             width: 30%; }
 
 #dramaimg { float: right;
+	    margin-right: 10%;
             width: 20%; }
 
 .logo { float: left;
@@ -272,10 +284,13 @@ body { margin: 0; padding: 0; background-image: none; color: white; }
 #wrapper { width: auto; min-width: 0; margin: 0; }
 #img { float: none; width: auto; margin: 0px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
 #bobo { float: none; width: auto; display: block; margin-left: auto; margin-right: auto; }
+#popimg { float: none; width: auto; display: block; margin-left: auto; margin-right: auto; }
+#danceimg { float: none; width: auto; display: block; margin-left: auto; margin-right: auto; }
+#dramaimg { float: none; width: auto; display: block; margin-left: auto; margin-right: auto; }
 h1 { margin: 0; font-size: 2em; line-height: 200%; }
 h2 { font-size: 1.5em; line-height: 100%; }
 table { margin-left: auto; margin-right: auto; }
-img { max-width: 200px; max-height: 200px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
+img { max-width: 200px; max-height: 250px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
 nav { float: none; width: auto; }
 nav li { display: inline-block; }
 nav a { padding: 1em; font-size: 1.2em; }
@@ -288,12 +303,15 @@ footer { margin: 0; }
 #info { float: none; width: auto; margin: 0px; padding-bottom: 20px; }
 #img { float: none; width: auto; margin: 0px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
 #bobo { float: none; width: auto; margin: 0px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
+#popimg { float: none; width: auto; margin: 0px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
+#danceimg { float: none; width: auto; margin: 0px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
+#dramaimg { float: none; width: auto; margin: 0px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
 header { background-repeat: no-repeat; background-position: center; }
 h1 { font-size: 1.8em; line-height: 120%; }
 h2 { font-size: 1.2em; line-height: 100%; }
 body { font-size: 90%; }
 table { margin-left: auto; margin-right: auto; }
-img { max-width: 200px; max-height: 200px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
+img { max-width: 200px; max-height: 250px; display: block; margin-left: auto; margin-right: auto; width: 100%;}
 nav a { display: block; padding: 0.2em; font-size: 1.3em; }
 nav li { display: block; }
 nav ul { text-align: block; }
